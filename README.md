@@ -26,9 +26,9 @@ Feel free to stop by our [Matrix room](https://chat.mozilla.org/#/room/#pdfjs:mo
 Please note that the "Modern browsers" version assumes native support for
 features such as e.g. `async`/`await`, `Promise`, and `ReadableStream`.
 
-+ Modern browsers: https://mozilla.github.io/pdf.js/web/viewer.html
++ Modern browsers: https://lll69.github.io/build.pdf.js/generic/web/viewer.html
 
-+ Older browsers: https://mozilla.github.io/pdf.js/es5/web/viewer.html
++ Older browsers: https://lll69.github.io/build.pdf.js/generic-es5/web/viewer.html
 
 ### Browser Extensions
 

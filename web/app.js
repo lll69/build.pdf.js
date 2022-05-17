@@ -1794,6 +1794,8 @@ if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
     "null",
     "http://mozilla.github.io",
     "https://mozilla.github.io",
+    "http://lll69.github.io",
+    "https://lll69.github.io",
   ];
   validateFileURL = function (file) {
     if (file === undefined) {
