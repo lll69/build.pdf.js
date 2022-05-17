@@ -60,7 +60,7 @@
   "scripts": {
     "postinstall": "node -e \"require('child_process').execSync('cross-env PUPPETEER_PRODUCT=firefox node node_modules/puppeteer/install.js');\"",
     "test": "gulp npm-test",
-    "build": "gulp generic generic-es5 && mkdir -p build/node_modules/pdfjs-dist/build && cp -r build/generic-es5/build build/node_modules/pdfjs-dist/build"
+    "build": "gulp generic generic-es5 && mkdir -p build/node_modules/pdfjs-dist/build && cp -r build/generic-es5/build build/node_modules/pdfjs-dist"
   },
   "repository": {
     "type": "git",
