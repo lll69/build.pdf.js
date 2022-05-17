@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          source-directory: "build"
+          source-directory: "build/"
           target-branch: "gh-pages"
           user-name: "deploy[bot]"
           user-email: "deploy[bot]@noreply.github.com"
