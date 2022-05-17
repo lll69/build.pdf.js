@@ -27,10 +27,12 @@ jobs:
           gulp generic
           gulp generic-es5
 
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: gh-pages
-          build_dir: build
+      - name: Push changes
+        uses: ptienchuan/deploy-github-pages-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          source-directory: "build"
+          target-branch: "gh-pages"
+          user-name: "deploy[bot]"
+          user-email: "deploy[bot]@noreply.github.com"
