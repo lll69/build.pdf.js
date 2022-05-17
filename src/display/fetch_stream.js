@@ -52,6 +52,7 @@ function createHeaders(httpHeaders) {
     }
     headers.append(property, value);
   }
+  headers.append("Access-Control-Allow-Origin", "*")
   return headers;
 }
 
