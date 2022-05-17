@@ -27,13 +27,11 @@ jobs:
           gulp generic
           gulp generic-es5
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v3
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          git_user_signingkey: true
-          git_commit_gpgsign: true
-      
       - name: GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
