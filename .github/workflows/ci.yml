@@ -23,7 +23,7 @@ jobs:
           npm install
 
       - name: Run tests
-        run: echo tests
+        run: cp -r examples build/examples
           
       - name: Push changes
         uses: ptienchuan/deploy-github-pages-action@master
